@@ -23,15 +23,22 @@ header h1{
     color: #6f4e37;
 }
 
-nav a{
-    text-decoration: none;
-    color: #4b2e2e;
-    margin-left: 20px;
-    font-weight: 500;
-}
 
+.logo{
+    font-size:1.5rem;
+    font-weight:bold;
+}
+nav{
+    display: flex;
+    gap: 2rem;
+}
+nav a{
+    color:#d4a574;
+    text-decoration: none;
+    transition: color 0.5s ease;
+}
 nav a:hover{
-    color: #a67b5b;
+    color:#f74600;
 }
 
 .banner{
