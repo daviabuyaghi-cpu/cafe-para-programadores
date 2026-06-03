@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -35,12 +36,13 @@ header h1{
 }
 nav{
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
 }
 nav a{
     color:#d4a574;
     text-decoration: none;
     transition: color 0.5s ease;
+    font-size: 0.9rem;
 }
 nav a:hover{
     color:#f74600;
@@ -64,7 +66,7 @@ nav a:hover{
 
 .banner{
     height: 90vh;
-    background-image: url("https://images.unsplash.com/photo-1495474472287-4d71bcdd2085");
+    background-image: url("baner.png");
     background-size: cover;
     background-position: center;
     display: flex;
@@ -275,4 +277,67 @@ nav a:hover{
 .footer-cop{
     color: #999;
     font-size: 14px;
+}
+/* responsividade */
+@media(max-width:780px){
+    .caixa-banner{
+    background-color: rgba(0,0,0,0.4);
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    width: 350px;
+}
+
+.caixa-banner h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.caixa-banner p{
+    margin-bottom: 18px;
+    font-size: 14px;
+}
+
+.caixa-banner button{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #e3d5ca;
+    color: #4b2e2e;
+    cursor: pointer;
+    font-size: 16px;
+}
+.btn-primary{
+    background-color: #d4a574;
+    color:white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.5s;
+    transition: scale 0.5s;
+}
+.btn-primary:hover{
+    background-color: #b8935f;
+    scale: 0.9;
+}
+.logo{
+    font-size:0.7rem;
+    font-weight:bold;
+}
+nav{
+    display: flex;
+    gap: 1rem;
+}
+nav a{
+    color:#d4a574;
+    text-decoration: none;
+    transition: color 0.5s ease;
+    font-size: 0.7rem;
+}
+nav a:hover{
+    color:#f74600;
+}
 }
