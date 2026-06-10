@@ -278,6 +278,38 @@ nav a:hover{
     color: #999;
     font-size: 14px;
 }
+
+.comentarios {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.comentarios h2 {
+    text-align: center;
+    color: #6f4e37;
+    margin-bottom: 30px;
+}
+
+.comentario {
+    background: #fff;
+    border-left: 5px solid #d4a574;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.comentario h4 {
+    color: #6f4e37;
+    margin-bottom: 10px;
+}
+
+.comentario p {
+    color: #555;
+    line-height: 1.6;
+}
+
 /* responsividade */
 @media(max-width:780px){
     .caixa-banner{
